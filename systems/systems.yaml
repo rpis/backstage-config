@@ -6,3 +6,21 @@ metadata:
 spec:
   owner: deposit-accounts-teamm
   domain: Deposits Accounts
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: PDC000000002
+  description: Current Account
+spec:
+  owner: deposit-accounts-teamm
+  domain: Deposits Accounts
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: PDC000000003
+  description: api-portal
+spec:
+  owner: cait
+  domain: tools

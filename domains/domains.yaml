@@ -31,9 +31,9 @@ kind: Domain
 metadata:
   name: tools
   description: |
-    Domena testowa z opisem jakims tam w wielu liniach
-    sdfdf
-    dfdff
+    Introducing a new apiVersion is basically the same as adding a new kind. Bear in mind that most plugins will be compiled against the builtin @backstage/catalog-model package and have expectations that kinds align with that.
+
+    The catalog backend itself, from a storage and API standpoint, does not care about the kind of entities it stores. Extending with new kinds is mainly a matter of permitting them to pass validation when building the backend catalog using the CatalogBuilder, and then to make plugins be able to understand the new kind.
 
 spec:
   owner: cait

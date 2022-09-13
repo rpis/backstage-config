@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: Deposits Accounts
+  name: deposit-accounts
   description: Deposits Domain
 spec:
   owner: deposit-accounts-team
@@ -10,7 +10,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: Current Accounts
+  name: current-accounts
   description: Current Domain
 spec:
   owner: current-accounts-team

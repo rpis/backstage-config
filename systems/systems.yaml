@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: PDC000000001
+  description: Deposits Domain
+spec:
+  owner: deposit-accounts-teamm
+  domain: Deposits Accounts

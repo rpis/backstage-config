@@ -30,9 +30,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: tools
-  description: | Domena testowa z opisem jakims tam w wielu liniach
-  sdfdf
-  dfdff
-  
+  description: |
+    Domena testowa z opisem jakims tam w wielu liniach
+    sdfdf
+    dfdff
+
 spec:
   owner: cait

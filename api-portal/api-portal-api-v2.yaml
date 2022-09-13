@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: apiportal-api-v1
+  name: apiportal-api-v2
   description: Api for api-portal
   links:
     - url: https://admin.example-org.com

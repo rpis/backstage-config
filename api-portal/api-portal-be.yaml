@@ -11,4 +11,4 @@ spec:
   dependsOn:
     - resource:default/apiportal-db
   providesApis:
-    - apiportal-api
+    - apiportal-api-v1

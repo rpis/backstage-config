@@ -3,6 +3,7 @@ kind: Domain
 metadata:
   name: deposit-accounts
   description: Deposits Domain
+  test: taki-sobie-test
 spec:
   owner: deposit-accounts-team
 

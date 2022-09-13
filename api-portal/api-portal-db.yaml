@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: apiportal-db
+  description: DB
+spec:
+  type: database
+  owner: cait
+  system: PDC000000003

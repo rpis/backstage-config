@@ -8,5 +8,5 @@ spec:
   lifecycle: production
   owner: cait
   system: PDC000000003
-  consumesApi:
+  consumesApis:
     - api:default/apiportal-api

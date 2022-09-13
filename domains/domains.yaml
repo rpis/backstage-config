@@ -16,7 +16,7 @@ metadata:
 spec:
   owner: current-accounts-team
 
-  ---
+---
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:

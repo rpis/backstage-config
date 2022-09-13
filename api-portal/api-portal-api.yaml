@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: apiportal-api
+  description: Api for api-portal
+spec:
+  type: openapi
+  lifecycle: production
+  owner: cait
+  system: api-portal-be
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Apiportal API
+      license:
+        name: MIT

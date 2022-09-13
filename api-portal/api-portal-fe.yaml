@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: api-portal-frontend
+  description: Frtontend of api-portal
+spec:
+  type: website
+  lifecycle: production
+  owner: cait
+  system: PDC000000003
+  dependsOn:
+    - api:default/apiportal-api

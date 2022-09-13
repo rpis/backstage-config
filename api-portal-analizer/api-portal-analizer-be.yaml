@@ -11,4 +11,5 @@ spec:
   providesApis:
     - apiportal-analizer-api-v1
   consumesApis:
+    - apiportal-api-v1
     - apiportal-api-v2

@@ -10,4 +10,4 @@ spec:
   owner: cait
   system: PDC000000004
   consumesApis:
-    - api:default/apiportal-api-v1
+    - api:default/apiportal-api-analizer-v1

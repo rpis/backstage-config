@@ -7,7 +7,7 @@ spec:
   type: openapi
   lifecycle: production
   owner: cait
-  system: api-portal-be
+  system: PDC000000003
   definition: |
     openapi: "3.0.0"
     info:

@@ -24,3 +24,12 @@ metadata:
 spec:
   owner: cait
   domain: tools
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: PDC000000004
+  description: api-portal-analizer
+spec:
+  owner: cait
+  domain: tools

@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: apiportal-db
-  description: DB
+  name: get-customer-v78
+  description: Simple service for retriving customer data
 spec:
-  type: database
+  type: soap
   owner: cait
-  system: PDC000000003
+  system: PDC000000001

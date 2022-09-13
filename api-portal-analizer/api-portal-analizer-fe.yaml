@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: api-portal-frontend
+  name: api-portal-analizer-frontend
   description: Frtontend of api-portal
 spec:
   test: taki

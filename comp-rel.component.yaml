@@ -1,1 +1,12 @@
-Test
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: related_component
+  description: backend of api-portal
+spec:
+  type: service
+  lifecycle: production
+  owner: cait
+  system: PDC000000004
+  dependsOn:
+    - api-portal-analizer-be

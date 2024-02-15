@@ -1,10 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: related_component
+  name: related-component
   description: backend of api-portal
 spec:
   type: service
   lifecycle: production
   owner: cait
   system: PDC000000004
+  consumesApis:
+    - apiportal-api-v1
+    - apiportal-api-v2
+    - resource:default/get-customer-v78

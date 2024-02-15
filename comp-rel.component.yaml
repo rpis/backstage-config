@@ -8,5 +8,3 @@ spec:
   lifecycle: production
   owner: cait
   system: PDC000000004
-  dependsOn:
-    - api-portal-analizer-be

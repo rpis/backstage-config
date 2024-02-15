@@ -12,5 +12,5 @@ spec:
     - apiportal-api-v1
     - apiportal-api-v2
     - resource:default/get-customer-v78
- partOf:
-   -  api-portal-analizer-be
+  dependsOn:
+    -  api-portal-analizer-be

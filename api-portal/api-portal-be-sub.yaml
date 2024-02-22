@@ -8,6 +8,7 @@ spec:
   lifecycle: production
   owner: cait
   system: PDC000000003
+  subcomponentOf: dafault/api-portal-be
   dependsOn:
     - resource:default/apiportal-db
     

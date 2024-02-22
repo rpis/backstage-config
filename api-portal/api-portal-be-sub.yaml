@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: api-portal-be
+  name: api-portal-be-sub
   description: backend sub of api-portal
 spec:
   type: subsystem

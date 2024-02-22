@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: api-portal-be
+  description: backend sub of api-portal
+spec:
+  type: subsystem
+  lifecycle: production
+  owner: cait
+  system: PDC000000003
+  dependsOn:
+    - resource:default/apiportal-db
+  providesApis:
+    - apiportal-api-v1
+    - apiportal-api-v2

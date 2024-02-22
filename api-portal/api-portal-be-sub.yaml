@@ -10,6 +10,4 @@ spec:
   system: PDC000000003
   dependsOn:
     - resource:default/apiportal-db
-  providesApis:
-    - apiportal-api-v1
-    - apiportal-api-v2
+    
